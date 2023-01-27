@@ -10,7 +10,7 @@ int gpunto(int corx,int cory){
         int ancho=40;
         int foo=0;
         
-         while(y!=alto){
+        while(y!=alto){
         cout<<endl;
         while(x!=ancho){
             if(x==ancho/2+corx && y==alto/2-cory && corx<0){cout<<"o";x=x+1;foo=1;}
@@ -25,4 +25,4 @@ int gpunto(int corx,int cory){
         }   
         cout<<endl;
         return 0;
-        }
+    }
